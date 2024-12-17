@@ -67,5 +67,5 @@ jobs:
           file: ./${{ matrix.file }}
           push: true
           tags: |
-            ghcr.io/scuffletv/ci/${{ matrix.name }}:${{ github.sha }}
-            ghcr.io/scuffletv/ci/${{ matrix.name }}:latest
+            ghcr.io/scufflecloud/ci/${{ matrix.name }}:${{ github.sha }}
+            ghcr.io/scufflecloud/ci/${{ matrix.name }}:latest
