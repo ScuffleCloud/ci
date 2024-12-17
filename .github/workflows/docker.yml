@@ -23,21 +23,6 @@ jobs:
     strategy:
       matrix:
         include:
-          - name: build
-            file: docker/build.dockerfile
-            runs-on: ubuntu-latest
-          - name: cockroach
-            file: docker/cockroach.dockerfile
-            runs-on: ubuntu-latest
-          - name: minio
-            file: docker/minio.dockerfile
-            runs-on: ubuntu-latest
-          - name: nats
-            file: docker/nats.dockerfile
-            runs-on: ubuntu-latest
-          - name: redis
-            file: docker/redis.dockerfile
-            runs-on: ubuntu-latest
           - name: backup
             file: docker/backup.dockerfile
             runs-on: ubuntu-latest
